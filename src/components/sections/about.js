@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'VueJs', 'Python', 'PHP', 'NodeJs', 'WordPress'];
+  const skills = ['Python', 'PHP', 'JavaScript (ES6+)', 'VueJs', 'NodeJs', 'WordPress'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,8 +141,6 @@ const About = () => {
               ! Pourquoi je vous dit ça ? Parce que construire avec ses mains des objets où des
               outils avec un ordinateur est à mon sens une des choses les plus plaisante qui puisse
               exister. Ce sentiment de satisfaction est simple hors norme une fois le travail fini.
-              {/* <br></br>
-              Le bateau dont je vous parle. 👉 */}
             </p>
 
             <p>

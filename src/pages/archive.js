@@ -174,8 +174,8 @@ const ArchivePage = ({ location, data }) => {
                     date,
                     github,
                     external,
-                    ios,
-                    android,
+                    // ios,
+                    // android,
                     title,
                     tech,
                     company,
@@ -213,7 +213,7 @@ const ArchivePage = ({ location, data }) => {
                               <Icon name="GitHub" />
                             </a>
                           )}
-                          {ios && (
+                          {/* {ios && (
                             <a href={ios} aria-label="Apple App Store Link">
                               <Icon name="AppStore" />
                             </a>
@@ -222,7 +222,7 @@ const ArchivePage = ({ location, data }) => {
                             <a href={android} aria-label="Google Play Store Link">
                               <Icon name="PlayStore" />
                             </a>
-                          )}
+                          )} */}
                         </div>
                       </td>
                     </tr>
@@ -242,6 +242,10 @@ ArchivePage.propTypes = {
 
 export default ArchivePage;
 
+// Ajouter ces nom dans frontmatter pour pouvoir gérer leurs icones
+// ios
+// android
+
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
@@ -256,8 +260,6 @@ export const pageQuery = graphql`
             tech
             github
             external
-            ios
-            android
             company
           }
           html
