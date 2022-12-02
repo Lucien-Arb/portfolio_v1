@@ -13,4 +13,4 @@ company: ''
 showInProjects: true
 ---
 
-Conception d'un jeux Pokémon à partir d'une [API publique.](https://pokeapi.co/) On peut se déplacer sur une carte à l'aide des flèches direcitonnelles, sur un nombre de pas random on tombe sur un pokémon et un combat se lance.
+Conception d'un jeu Pokémon à partir d'une [API publique.](https://pokeapi.co/) On peut se déplacer sur une carte à l'aide des flèches directionnelles, sur un nombre de pas random on tombe sur un pokémon et un combat se lance.

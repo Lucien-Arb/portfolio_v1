@@ -11,4 +11,4 @@ company: 'OpenClassRooms'
 showInProjects: true
 ---
 
-Réalisation du front d'un site e-commerce avec une API d'appareils photos. Prise en main du LocalStorage. Mon premier projet JavaScript.
+Réalisation du front d'un site e-commerce avec une API d'appareils photo. Prise en main du LocalStorage. Mon premier projet JavaScript.

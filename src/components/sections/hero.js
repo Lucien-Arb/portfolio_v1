@@ -64,9 +64,9 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        Titulaire d'un bac+3 en tant que développeur d'applications, j'aime participé à des projets
-        ambitieux avec du goût et du challenge. Passionné par Python je rédige des scripts de
-        scraping et d'automation et j'aime ça.{' '}
+        Titulaire d'un bac+3 en tant que développeur d'applications, j'aime participer à des projets
+        ambitieux avec du goût et du challenge. Passionné par Python, je rédige des scripts de
+        scraping et d'automation.{' '}
         {/* <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
           Upstatement
         </a> */}

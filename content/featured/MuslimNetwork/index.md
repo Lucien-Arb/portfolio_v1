@@ -10,8 +10,6 @@ tech:
   - Bulma
 ---
 
-J'ai participé à la réalisation des maquettes ainsi qu'à leur intégration côté front avec un responsive léché.
-C'est une application web (PWA) qui permet de déposer des annonces en ligne sur 4 axes :
-Emploi • Commerce • Prestation de service • Entraide
+J'ai participé à la réalisation des maquettes ainsi qu'à leur intégration côté front avec le responsiv. C'est une [application web progressive (PWA)](https://fr.yeeply.com/blog/progressive-web-apps/) qui permet de déposer des annonces en ligne sur 4 axes : Emploi • Commerce • Prestation de services • Entraide
 
 La plateforme dispose de plusieurs fonctionnalités avancées : système de recherche avancé, création de CV via un tableau de bord, messagerie intégrée, système de following, annuaire de freelancing/demandeurs d'emploi accessible aux employeurs, un système premium pour la mise en avant d'annonces ou de son profil et bien d'autres !

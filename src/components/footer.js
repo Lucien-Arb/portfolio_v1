@@ -68,7 +68,8 @@ const StyledCredit = styled.div`
 `;
 
 const Footer = () => {
-  const [githubInfo, setGitHubInfo] = useState({
+  const [setGitHubInfo] = useState({
+    // Ajouter githubInfo pour afficher les étoiles en bas
     stars: null,
     forks: null,
   });
@@ -111,7 +112,7 @@ const Footer = () => {
           adapté par Lucien Arbieu
         </div>
 
-        {githubInfo.stars && githubInfo.forks && (
+        {/* {githubInfo.stars && githubInfo.forks && (
           <div className="github-stats">
             <span>
               <Icon name="Star" />
@@ -122,7 +123,7 @@ const Footer = () => {
               <span>{githubInfo.forks.toLocaleString()}</span>
             </span>
           </div>
-        )}
+        )} */}
       </StyledCredit>
     </StyledFooter>
   );

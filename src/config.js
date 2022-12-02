@@ -7,10 +7,6 @@ module.exports = {
       url: 'https://github.com/Lucien34000',
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/ArbieuL',
-    },
-    {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/arbieulucien/',
     },

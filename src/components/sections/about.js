@@ -129,10 +129,10 @@ const About = () => {
               projets.
               <br></br>
               Pourquoi ?<br></br>
-              J'aime ce sentiment de travail achevé, ce moment où l'on se rappel les difficicultés
-              et les réussites qui nous ont mené au résultat que l'on a devant nous. Ce plaisir je
-              le trouve aujourd'hui dans la tech lorsque je participe à des projets, que je vois des
-              outils et solutions sur lesquelles j'ai travaillé être utilisées au quotidient par des
+              J'aime ce sentiment de travail achevé, ce moment où l'on se rappel les difficultés et
+              les réussites qui nous ont mené au résultat que l'on a devant nous. Ce plaisir, je le
+              trouve aujourd'hui dans la tech lorsque je participe à des projets, que je vois des
+              outils et solutions sur lesquelles j'ai travaillé, être utilisées au quotidien par des
               personnes à qui cela rend vraiment service.
             </p>
 
