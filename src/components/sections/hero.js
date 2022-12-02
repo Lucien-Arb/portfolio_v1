@@ -58,14 +58,15 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Wesh bik, je s'appel</h1>;
+  const one = <h1>Bonjour et bienvenu, je suis</h1>;
   const two = <h2 className="big-heading">Lucien Arbieu,</h2>;
-  const three = <h3 className="big-heading">développeur Gourmand. {'🍫'}</h3>;
+  const three = <h3 className="big-heading">développeur Python / PHP. {'💻'}</h3>;
   const four = (
     <>
       <p>
-        Diplômé d'un bac+3 en développeur d'applications, je conçois des projets from scratch, en
-        front comme en back. Passionné par Python je rédige des scripts de scraping et d'automation.{' '}
+        Titulaire d'un bac+3 en tant que développeur d'applications, j'aime participé à des projets
+        ambitieux avec du goût et du challenge. Passionné par Python je rédige des scripts de
+        scraping et d'automation et j'aime ça.{' '}
         {/* <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
           Upstatement
         </a> */}

@@ -2,7 +2,7 @@
 date: '1'
 title: 'Groupomania'
 cover: './groupomania.png'
-github: 'https://github.com/Lucien34000/Groupomaniae'
+github: 'https://github.com/Lucien34000/Groupomania'
 external: 'https://github.com/Lucien34000/Groupomania'
 tech:
   - JavaScript

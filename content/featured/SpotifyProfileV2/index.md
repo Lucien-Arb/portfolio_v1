@@ -1,16 +1,18 @@
 ---
-date: '3'
-title: 'Build a Spotify Connected App'
-cover: './course-card.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+date: '2'
+title: 'TCG Market'
+cover: './TCG-Market.png'
+github: 'https://github.com/TeamKLFRI7/RI7-tcgMarket'
 cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
 tech:
-  - React
-  - Express
-  - Spotify API
-  - Styled Components
+  - PHP
+  - Symfony
+  - AJAX/Axios
+  - ReactJs
 ---
 
-Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.
+Réalisation d'un site e-commerce de vente de cartes d'occasion Pokémon avec possibilité d'étendre le concept à d'autres jeux.
+TCG-Market se base sur une [API](https://dev.pokemontcg.io/) qui sert à remplir et à maintenir à jour notre base de donnée via un [ETL - Extract Transform and Load -](https://www.lebigdata.fr/etl-definition) qui nous permet de faire cela facilement.
 
-Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed to the internet you can add to your portfolio.
+Il est aussi possible pour les utilisateurs de créer un profil, l'administrer et de mettre en vente des cartes.
+Le site sert aussi de catalogue et permet de naviguer facilement à travers les différentes séries, sets et cartes.

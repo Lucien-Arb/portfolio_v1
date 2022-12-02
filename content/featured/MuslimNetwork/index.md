@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'Muslim Network'
 cover: './demo.png'
 # github: 'https://github.com/bchiang7/spotify-profile'

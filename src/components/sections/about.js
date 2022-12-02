@@ -7,12 +7,10 @@ import { usePrefersReducedMotion } from '@hooks';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
-
   .inner {
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-gap: 50px;
-
     @media (max-width: 768px) {
       display: block;
     }
@@ -27,14 +25,12 @@ const StyledText = styled.div`
     margin: 20px 0 0 0;
     overflow: hidden;
     list-style: none;
-
     li {
       position: relative;
       margin-bottom: 10px;
       padding-left: 20px;
       font-family: var(--font-mono);
       font-size: var(--fz-xs);
-
       &:before {
         content: '▹';
         position: absolute;
@@ -49,43 +45,32 @@ const StyledText = styled.div`
 const StyledPic = styled.div`
   position: relative;
   max-width: 300px;
-
   @media (max-width: 768px) {
     margin: 50px auto 0;
     width: 70%;
   }
-
   .wrapper {
     ${({ theme }) => theme.mixins.boxShadow};
     display: block;
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
-
     &:hover,
     &:focus {
       outline: 0;
-
       &:after {
         top: 15px;
         left: 15px;
       }
-
       .img {
         filter: none;
         mix-blend-mode: normal;
       }
     }
-
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
-      transition: var(--transition);
     }
-
     &:before,
     &:after {
       content: '';
@@ -96,14 +81,12 @@ const StyledPic = styled.div`
       border-radius: var(--border-radius);
       transition: var(--transition);
     }
-
     &:before {
       top: 0;
       left: 0;
       background-color: var(--navy);
       mix-blend-mode: screen;
     }
-
     &:after {
       border: 2px solid var(--green);
       top: 20px;
@@ -125,7 +108,14 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Python', 'PHP', 'JavaScript (ES6+)', 'VueJs', 'NodeJs', 'WordPress'];
+  const skills = [
+    'Python',
+    'PHP / Symfony',
+    'JavaScript (ES6+)',
+    'VueJs',
+    'NodeJs / Express',
+    'WordPress',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,12 +125,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Depuis que je suis enfant, j'ai toujours aimé construire et participé à des projets. À
-              tel point que pendant presque 10 ans, mon père et moi - surtout mon père - avons
-              construit un catamaran en bois de 16m de long from scratch juste en achetant les plans
-              ! Pourquoi je vous dit ça ? Parce que construire avec ses mains des objets où des
-              outils avec un ordinateur est à mon sens une des choses les plus plaisante qui puisse
-              exister. Ce sentiment de satisfaction est simple hors norme une fois le travail fini.
+              Depuis que je suis enfant, j'ai toujours aimé construire des choses et participé à des
+              projets.
+              <br></br>
+              Pourquoi ?<br></br>
+              J'aime ce sentiment de travail achevé, ce moment où l'on se rappel les difficicultés
+              et les réussites qui nous ont mené au résultat que l'on a devant nous. Ce plaisir je
+              le trouve aujourd'hui dans la tech lorsque je participe à des projets, que je vois des
+              outils et solutions sur lesquelles j'ai travaillé être utilisées au quotidient par des
+              personnes à qui cela rend vraiment service.
             </p>
 
             <p>
