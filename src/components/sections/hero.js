@@ -60,13 +60,11 @@ const Hero = () => {
 
   const one = <h1>Bonjour et bienvenu, je suis</h1>;
   const two = <h2 className="big-heading">Lucien Arbieu,</h2>;
-  const three = <h3 className="big-heading">développeur Python / PHP. {'💻'}</h3>;
+  const three = <h3 className="big-heading">développeur Symfony React. {'💻'}</h3>;
   const four = (
     <>
       <p>
-        Titulaire d'un bac+3 en tant que développeur d'applications, j'aime participer à des projets
-        ambitieux avec du goût et du challenge. Passionné par Python, je rédige des scripts de
-        scraping et d'automation.{' '}
+        Fort de 3 ans d'expérience au sein d'entreprise à fort potentiel, je suis déterminé à continuer sur ma lancée vers de nouveaux défis.{' '}
         {/* <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
           Upstatement
         </a> */}
